@@ -14,5 +14,6 @@ namespace TravelTripProject.Models.Classes
         public string Description { get; set; }
         public string ImageUrl { get; set; }
         public DateTime InsertDateTime { get; set; }
+        public ICollection<Comment> Comments { get; set; }
     }
 }
